@@ -797,6 +797,22 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF43542712": {
+    "contest_id": 45,
+    "language": "GNU C++14",
+    "path": "codeforces\\45\\I.cpp",
+    "platform": "Codeforces",
+    "problem_index": "I",
+    "problem_name": "TCMCF+++",
+    "problem_url": "https://codeforces.com/contest/45/problem/I",
+    "submission_id": "CF43542712",
+    "submission_url": "https://codeforces.com/contest/45/submission/43542712",
+    "tags": [
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/28/2018 23:50"
+  },
   "CF43550747": {
     "contest_id": 3,
     "language": "GNU C++14",
