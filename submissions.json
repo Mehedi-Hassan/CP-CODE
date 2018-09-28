@@ -797,6 +797,25 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF43550844": {
+    "contest_id": 34,
+    "language": "GNU C++14",
+    "path": "codeforces\\34\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Page Numbers",
+    "problem_url": "https://codeforces.com/contest/34/problem/C",
+    "submission_id": "CF43550844",
+    "submission_url": "https://codeforces.com/contest/34/submission/43550844",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "sortings",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Sep/29/2018 05:51"
+  },
   "CF43550847": {
     "contest_id": 23,
     "language": "GNU C++14",
