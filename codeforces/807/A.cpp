@@ -20,7 +20,10 @@ int main()
     }
 
     for(int i=0;i<n-1;i++){
-        if(pre[i] < aft[i+1]){
+        if(pre[i] >= aft[i+1]){
+            done = 1;
+        }
+        else{
             cout<<"unrated";
             return 0;
         }
