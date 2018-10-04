@@ -797,6 +797,24 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF43803430": {
+    "contest_id": 779,
+    "language": "GNU C++14",
+    "path": "codeforces\\779\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Dishonest Sellers",
+    "problem_url": "https://codeforces.com/contest/779/problem/C",
+    "submission_id": "CF43803430",
+    "submission_url": "https://codeforces.com/contest/779/submission/43803430",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Oct/05/2018 00:28"
+  },
   "CF43955624": {
     "contest_id": 1033,
     "language": "GNU C++14",
