@@ -797,6 +797,23 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF45531399": {
+    "contest_id": 1055,
+    "language": "GNU C++14",
+    "path": "codeforces\\1055\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Alice and Hairdresser",
+    "problem_url": "https://codeforces.com/contest/1055/problem/B",
+    "submission_id": "CF45531399",
+    "submission_url": "https://codeforces.com/contest/1055/submission/45531399",
+    "tags": [
+      "dsu",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Nov/10/2018 22:16"
+  },
   "CF45598200": {
     "contest_id": 1076,
     "language": "GNU C++14",
