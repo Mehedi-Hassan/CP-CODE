@@ -797,6 +797,22 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF46211440": {
+    "contest_id": 1056,
+    "language": "GNU C++14",
+    "path": "codeforces\\1056\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Determine Line",
+    "problem_url": "https://codeforces.com/contest/1056/problem/A",
+    "submission_id": "CF46211440",
+    "submission_url": "https://codeforces.com/contest/1056/submission/46211440",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/25/2018 22:43"
+  },
   "CF46792173": {
     "contest_id": 1090,
     "language": "GNU C++11",
