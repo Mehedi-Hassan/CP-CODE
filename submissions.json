@@ -797,6 +797,22 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF47435423": {
+    "contest_id": 1087,
+    "language": "GNU C++11",
+    "path": "codeforces\\1087\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Connect Three",
+    "problem_url": "https://codeforces.com/contest/1087/problem/C",
+    "submission_id": "CF47435423",
+    "submission_url": "https://codeforces.com/contest/1087/submission/47435423",
+    "tags": [
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/24/2018 00:36"
+  },
   "CF47562290": {
     "contest_id": 1095,
     "language": "GNU C++11",
