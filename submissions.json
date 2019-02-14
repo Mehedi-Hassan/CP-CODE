@@ -797,6 +797,25 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF49918435": {
+    "contest_id": 1108,
+    "language": "GNU C++11",
+    "path": "codeforces\\1108\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Divisors of Two Integers",
+    "problem_url": "https://codeforces.com/contest/1108/problem/B",
+    "submission_id": "CF49918435",
+    "submission_url": "https://codeforces.com/contest/1108/submission/49918435",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Feb/14/2019 23:32"
+  },
   "CF49919265": {
     "contest_id": 1108,
     "language": "GNU C++11",
