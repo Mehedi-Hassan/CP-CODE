@@ -797,6 +797,23 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF67309973": {
+    "contest_id": 1266,
+    "language": "GNU C++14",
+    "path": "codeforces\\1266\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dice Tower",
+    "problem_url": "https://codeforces.com/contest/1266/problem/B",
+    "submission_id": "CF67309973",
+    "submission_url": "https://codeforces.com/contest/1266/submission/67309973",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/21/2019 07:48"
+  },
   "CF67388423": {
     "contest_id": 1269,
     "language": "GNU C++14",
