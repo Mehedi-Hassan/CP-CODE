@@ -1167,6 +1167,22 @@
     ],
     "timestamp": "Dec/13/2020 19:04"
   },
+  "AC9108313": {
+    "contest_id": "dp",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\dp\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Knapsack 2",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_e",
+    "submission_id": "AC9108313",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/9108313",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Dec/24/2019 03:26"
+  },
   "AC9968338": {
     "contest_id": "dp",
     "language": "C++14 (GCC 5.4.1)",
