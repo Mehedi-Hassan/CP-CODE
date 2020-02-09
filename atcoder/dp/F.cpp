@@ -29,7 +29,7 @@ int main()
 
 //    cout<<dp[n][m];
 
-    for(int i=n, j=m; i>0 && j>0;){
+    for(int i=n, j=m; i>0 & j>0;){
         if(dp[i][j]!=dp[i-1][j] && dp[i][j]!=dp[i][j-1]){
             ans = s[i-1] + ans;
             i--;
