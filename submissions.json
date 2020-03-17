@@ -797,6 +797,23 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF73527470": {
+    "contest_id": 1324,
+    "language": "GNU C++14",
+    "path": "codeforces\\1324\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yet Another Tetris Problem",
+    "problem_url": "https://codeforces.com/contest/1324/problem/A",
+    "submission_id": "CF73527470",
+    "submission_url": "https://codeforces.com/contest/1324/submission/73527470",
+    "tags": [
+      "implementation",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Mar/18/2020 04:16"
+  },
   "CF73527612": {
     "contest_id": 1324,
     "language": "GNU C++14",
