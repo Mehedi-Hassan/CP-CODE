@@ -797,6 +797,22 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF76745400": {
+    "contest_id": 600,
+    "language": "GNU C++14",
+    "path": "codeforces\\600\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Area of Two Circles' Intersection",
+    "problem_url": "https://codeforces.com/contest/600/problem/D",
+    "submission_id": "CF76745400",
+    "submission_url": "https://codeforces.com/contest/600/submission/76745400",
+    "tags": [
+      "geometry",
+      "*2000"
+    ],
+    "timestamp": "Apr/15/2020 05:35"
+  },
   "CF76824716": {
     "contest_id": 1337,
     "language": "GNU C++14",
