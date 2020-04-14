@@ -79,15 +79,13 @@ int main()
 
     s = th2*rr2*rr2;
     t = rr2*rr2*sin(th2)*cos(th2);
-//    ans += s-t;
-    if(d < r1){
-
-        t = rr2*rr2*sin(pi - th2)*cos(pi - th2);
-        ans += s+t;
-    }
-    else{
-        ans += s-t;
-    }
+    ans += s-t;
+//    if(d < r1){
+//        ans += s+t;
+//    }
+//    else{
+//        ans += s-t;
+//    }
     cout<<ans;
 //    printf("%.10Lf", ans);
 }
