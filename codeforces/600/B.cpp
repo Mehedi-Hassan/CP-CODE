@@ -47,11 +47,11 @@ int main()
     for(int i=0;i<n;i++)
         cin>>a[i];
     sort(a,a+n);
-//    vector<int>v(a, a+n);
+    vector<int>v(a, a+n);
 
     for(int i=0;i<m;i++){
         cin>>b[i];
-        cout<<upper_bound(a,a+n, b[i]) - a<<" ";
+        cout<<upper_bound(v.begin(), v.end(), b[i])-v.begin()<<" ";
 
     }
 }
