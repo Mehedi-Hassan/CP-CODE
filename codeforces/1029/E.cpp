@@ -48,19 +48,22 @@ struct point
 
 vector<int>g[200005];
 
-int vis[200005], dis[200005];
+int vis[200005], dis[200005], par[200005];
 
 int main()
 {
     FASTIO
 
     int n, x, y;
-    cin>>n;
+//    cin>>n;
+    sf(n);
 
-    int par[n+9];
+//    int par[n+9];
     par[1] = 0;
     for(int i=0;i<n-1;i++){
-        cin>>x>>y;
+//        cin>>x>>y;
+        sf(x);
+        sf(y);
         g[x].pb(y);
         g[y].pb(x);
 
@@ -78,9 +81,7 @@ int main()
     while(!q.empty()){
         int s = q.front();
         q.pop();
-        if(dis[s] > 2){
-            st.insert(pii(-dis[s], s));
-        }
+
         for(int i=0;i<g[s].size();i++){
             if(vis[g[s][i]] == 0){
                 vis[g[s][i]] = 1;
@@ -91,23 +92,34 @@ int main()
         }
     }
 
-    mem(vis);
+    for(int s=1;s<=n;s++){
+        if(dis[s] > 2){
+            st.insert(pii(-dis[s], s));
+        }
+    }
+
+//    mem(vis);
     int ans = 0;
     while(!st.empty()){
         int v = st.begin()->s;
         v = par[v];
         ans++;
-        if(st.find(pii(-dis[v], v)) != st.end()){
-            it = st.find(pii(-dis[v], v));
+
+        it = st.find(pii(-dis[v], v));
+        if(it != st.end()){
             st.erase(it);
         }
 
         for(int i=0;i<g[v].size();i++){
-            if(st.find(pii(-dis[g[v][i]], g[v][i])) != st.end()){
-                it = st.find(pii(-dis[g[v][i]], g[v][i]));
+            it = st.find(pii(-dis[g[v][i]], g[v][i]));
+            if(it != st.end()){
                 st.erase(it);
             }
         }
     }
-    cout<<ans;
+    pf(ans);
+//    cout<<ans;
 }
+
+
+
