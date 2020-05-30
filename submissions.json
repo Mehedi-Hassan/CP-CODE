@@ -1,4 +1,20 @@
 {
+  "AC13716153": {
+    "contest_id": "nomura2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\nomura2020\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Study Scheduling",
+    "problem_url": "https://atcoder.jp/contests/nomura2020/tasks/nomura2020_a",
+    "submission_id": "AC13716153",
+    "submission_url": "https://atcoder.jp/contests/nomura2020/submissions/13716153",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/30/2020 18:02"
+  },
   "AC13723941": {
     "contest_id": "nomura2020",
     "language": "C++ (GCC 9.2.1)",
