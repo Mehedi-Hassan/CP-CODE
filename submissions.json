@@ -797,6 +797,24 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF83328998": {
+    "contest_id": 1217,
+    "language": "GNU C++14",
+    "path": "codeforces\\1217\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "The Number Of Good Substrings",
+    "problem_url": "https://codeforces.com/contest/1217/problem/C",
+    "submission_id": "CF83328998",
+    "submission_url": "https://codeforces.com/contest/1217/submission/83328998",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "*1700"
+    ],
+    "timestamp": "Jun/11/2020 00:39"
+  },
   "CF83332250": {
     "contest_id": 1207,
     "language": "GNU C++14",
