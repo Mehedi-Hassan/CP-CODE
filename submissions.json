@@ -797,6 +797,23 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF84092881": {
+    "contest_id": 1339,
+    "language": "GNU C++14",
+    "path": "codeforces\\1339\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sorted Adjacent Differences",
+    "problem_url": "https://codeforces.com/contest/1339/problem/B",
+    "submission_id": "CF84092881",
+    "submission_url": "https://codeforces.com/contest/1339/submission/84092881",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jun/17/2020 22:22"
+  },
   "CF84093734": {
     "contest_id": 1330,
     "language": "GNU C++14",
