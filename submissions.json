@@ -797,6 +797,27 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF85721082": {
+    "contest_id": 1371,
+    "language": "GNU C++14",
+    "path": "codeforces\\1371\\E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Asterism (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1371/problem/E1",
+    "submission_id": "CF85721082",
+    "submission_url": "https://codeforces.com/contest/1371/submission/85721082",
+    "tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "math",
+      "number theory",
+      "sortings",
+      "*1900"
+    ],
+    "timestamp": "Jul/02/2020 03:57"
+  },
   "CF85746000": {
     "contest_id": 281,
     "language": "GNU C++14",
