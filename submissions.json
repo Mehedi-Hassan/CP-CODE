@@ -797,6 +797,24 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF86313988": {
+    "contest_id": 559,
+    "language": "GNU C++14",
+    "path": "codeforces\\559\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Gerald's Hexagon",
+    "problem_url": "https://codeforces.com/contest/559/problem/A",
+    "submission_id": "CF86313988",
+    "submission_url": "https://codeforces.com/contest/559/submission/86313988",
+    "tags": [
+      "brute force",
+      "geometry",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Jul/09/2020 08:35"
+  },
   "CF86508990": {
     "contest_id": 1157,
     "language": "GNU C++14",
