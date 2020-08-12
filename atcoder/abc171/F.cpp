@@ -95,6 +95,8 @@ const int N = 2000006;
 int fact[N], inv[N];
 
 int ncr(int n, int r){
+    if(r>n)
+        return 0;
     return (fact[n]%MOD * inv[r]%MOD * inv[n-r]%MOD)%MOD;
 }
 signed main()
