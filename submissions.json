@@ -797,6 +797,22 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF93925559": {
+    "contest_id": 1425,
+    "language": "GNU C++14",
+    "path": "codeforces\\1425\\H.cpp",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Huge Boxes of Animal Toys",
+    "problem_url": "https://codeforces.com/contest/1425/problem/H",
+    "submission_id": "CF93925559",
+    "submission_url": "https://codeforces.com/contest/1425/submission/93925559",
+    "tags": [
+      "constructive algorithms",
+      "*1300"
+    ],
+    "timestamp": "Sep/27/2020 12:12"
+  },
   "CF93976698": {
     "contest_id": 1417,
     "language": "GNU C++14",
