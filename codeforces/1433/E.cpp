@@ -113,18 +113,22 @@ signed main()
 //    cin>>T;
     int T = 1;
 
-    int f[21];
-
-    f[0] = 1;
-    f(i ,1 ,20){
-        f[i] = f[i-1]*i;
-    }
-
+    int ans[22];
+    ans[2] = 1;
+    ans[4] = 3;
+    ans[6] = 40;
+    ans[8] = 1260;
+    ans[10] = 72576;
+    ans[12] = 6652800;
+    ans[14] = 889574400;
+    ans[16] = 163459296000;
+    ans[18] = 39520825344000;
+    ans[20] = 12164510040883200;
     for(int tc = 1;tc<=T; tc++){
         int n;
         cin>>n;
 
-        cout<<f[n]/(f[n/2]*f[n/2]) * f[n/2 - 1] * f[n/2 - 1] / 2<<endl;
+        cout<<ans[n]<<endl;
 
 
 
