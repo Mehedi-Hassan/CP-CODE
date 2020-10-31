@@ -797,6 +797,23 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF97265287": {
+    "contest_id": 1219,
+    "language": "GNU C++14",
+    "path": "codeforces\\1219\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Periodic integer number",
+    "problem_url": "https://codeforces.com/contest/1219/problem/C",
+    "submission_id": "CF97265287",
+    "submission_url": "https://codeforces.com/contest/1219/submission/97265287",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Nov/01/2020 00:52"
+  },
   "CF97295770": {
     "contest_id": 1220,
     "language": "GNU C++14",
