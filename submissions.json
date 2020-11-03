@@ -797,6 +797,24 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF97544037": {
+    "contest_id": 1223,
+    "language": "GNU C++14",
+    "path": "codeforces\\1223\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sequence Sorting",
+    "problem_url": "https://codeforces.com/contest/1223/problem/D",
+    "submission_id": "CF97544037",
+    "submission_url": "https://codeforces.com/contest/1223/submission/97544037",
+    "tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Nov/03/2020 15:26"
+  },
   "CF98012127": {
     "contest_id": 922,
     "language": "GNU C++14",
