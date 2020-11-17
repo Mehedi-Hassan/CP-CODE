@@ -24,7 +24,7 @@ using namespace std;
 #define pf(a)           printf("%lld ", a)
 #define case(a)         cout<<"Case "<<a<<": ";
 #define FASTIO          ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-#define pb              emplace_back
+#define pb              push_back
 #define mp              make_pair
 #define mem(arr)        memset(arr, 0, sizeof(arr))
 #define mem1(arr)       memset(arr, -1, sizeof(arr))
@@ -35,7 +35,7 @@ using namespace std;
 #define prec(n)         fixed<<setprecision(n)
 #define maxpq           priority_queue<int>
 #define minpq           priority_queue<int, vector<int>, greater<int> >
-#define inf             (int)2e18
+#define inf             (int)(1e18)
 #define vi              vector<int>
 #define endl            "\n"
 #define vii             vector<pii>
@@ -98,14 +98,70 @@ template<typename T, typename... Args> void err(istream_iterator<string> it, T a
 
 ///Template Ends Here////////////////////////////
 
+int done[50004];
 struct st
 {
     int x, y, z, id;
 };
 
-int done[2009];
-int sq(int n){
-    return n*n;
+struct stxy
+{
+    int x, y, id;
+};
+
+struct stx
+{
+    int x, id;
+};
+
+bool cmp(st a, st b)
+{
+    if(a.x != b.x)
+        return a.x < b.x;
+    if(a.y != b.y)
+        return a.y < b.y;
+
+    return a.z < b.z;
+}
+
+void fx(vector<stx> v){
+    int sz = sz(v);
+//    error(sz);
+    f(i, 0, sz-2){
+        cout<<v[i].id<<" "<<v[i+1].id<<endl;
+        done[v[i].id] = done[v[i+1].id] = 1;
+        i++;
+    }
+}
+
+void fxy(vector<stxy>v){
+    int st = v[0].x, sz = sz(v);
+    vector<stx>vx;
+
+    for(auto xy:v){
+        if(xy.x != st){
+            fx(vx);
+            st = xy.x;
+            vx.clear();
+        }
+        vx.pb({xy.y, xy.id});
+    }
+    fx(vx);
+
+    int l=-1, r = -1;
+    f(i, 0, sz-1){
+        if(!done[v[i].id] && l==-1){
+            l = v[i].id;
+            continue;
+        }
+        if(!done[v[i].id] && r==-1){
+            r = v[i].id;
+            cout<<l<<" "<<r<<endl;
+            done[l] = done[r] = 1;
+            l = r = -1;
+        }
+    }
+
 }
 signed main()
 {
@@ -113,8 +169,7 @@ signed main()
 //    freopen("input.txt", "r", stdin);
 //    freopen("output.txt", "w", stdout);
 
-    FASTIO
-//    cout<<inf;
+//    FASTIO
 
     int n;
     cin>>n;
@@ -125,21 +180,37 @@ signed main()
         a[i].id = i;
     }
 
-    f(i, 1, n){
-        if(done[i]) continue;
-        int dis=0, mn = inf, mnid = -1;
-        f(j, 1, n){
-            if(i==j || done[j]) continue;
-            dis = sq(abs(a[i].x - a[j].x)) + sq(abs(a[i].y - a[j].y)) + sq(abs(a[i].z - a[j].z));
-            if(dis < mn){
-                mn = dis;
-                mnid = j;
-            }
-        }
-        done[i] = done[mnid] = 1;
-        cout<<i<<" "<<mnid<<endl;
-    }
+    sort(a+1, a+n+1, cmp);
 
+    int stxx = a[1].x;
+
+    vector<stxy>v;
+
+    f(i, 1, n){
+        if(stxx != a[i].x){
+            fxy(v);
+            stxx = a[i].x;
+            v.clear();
+        }
+        v.pb({a[i].y, a[i].z, a[i].id});
+    }
+    fxy(v);
+
+//    cout<<465165;
+
+    int l=-1, r = -1, sz = n;
+    f(i, 1, sz){
+        if(!done[a[i].id] && l==-1){
+            l = a[i].id;
+            continue;
+        }
+        if(!done[a[i].id] && r==-1){
+            r = a[i].id;
+            cout<<l<<" "<<r<<endl;
+            done[l] = done[r] = 1;
+            l = r = -1;
+        }
+    }
 
 
 
