@@ -1,0 +1,249 @@
+//#pragma GCC optimize("O3,unroll-loops")
+//#pragma GCC target("avx,avx2,fma")
+#include <algorithm>
+#include <bits/stdc++.h>
+#include <unordered_map>
+#include <unordered_set>
+
+using namespace std;
+
+#define PI              acos(-1.0)
+#define No              cout<<"No\n"
+#define Yes             cout<<"Yes\n"
+#define no              cout<<"no\n"
+#define yes             cout<<"yes\n"
+#define NO              cout<<"NO\n"
+#define YES             cout<<"YES\n"
+#define MOD             (int)1000000007
+#define int             long long
+#define ll              long long
+#define pii             pair<int, int>
+#define fi               first
+#define se              second
+#define sf(a)           scanf("%lld", &a)
+#define pf(a)           printf("%lld ", a)
+#define case(a)         cout<<"Case "<<a<<": ";
+#define FASTIO          ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+#define pb              push_back
+#define mp              make_pair
+#define mem(arr)        memset(arr, 0, sizeof(arr))
+#define mem1(arr)       memset(arr, -1, sizeof(arr))
+#define all(a)          a.begin(),a.end()
+#define f(i,a,b)        for (int i = a; i<=b; i++)
+#define fr(i,a,b)       for (int i = a; i>=b; i--)
+#define rr              return 0
+#define prec(n)         fixed<<setprecision(n)
+#define maxpq           priority_queue<int>
+#define minpq           priority_queue<int, vector<int>, greater<int> >
+#define inf             (int)(1e18)
+#define vi              vector<int>
+#define endl            "\n"
+#define vii             vector<pii>
+#define sz(s)           s.size()
+#define bits(n)         __builtin_popcount(n)
+#define lcm(a,b)        (a*(b/gcd(a,b)))
+#define MX              500005
+
+
+int gcd(int a, int b)   {return __gcd(a,b);}
+
+inline void normal(ll &a) { a %= MOD; (a < 0) && (a += MOD); }
+inline ll modMul(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); return (a*b)%MOD; }
+inline ll modAdd(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); return (a+b)%MOD; }
+inline ll modSub(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); a -= b; normal(a); return a; }
+inline ll modPow(ll b, ll p) { ll r = 1; while(p) { if(p & 1LL) r = modMul(r, b); b = modMul(b, b); p >>= 1LL; } return r; }
+inline ll modInverse(ll a) { return modPow(a, MOD-2); }
+inline ll modDiv(ll a, ll b) { return modMul(a, modInverse(b)); }
+
+inline bool checkBit(ll n, int i) { return n&(1LL<<i); }
+inline ll setBit(ll n, int i) { return n or (1LL<<i);; }
+inline ll resetBit(ll n, int i) { return n&(~(1LL<<i)); }
+
+
+const double eps = 1e-9;
+
+int dx[5] = {+1, +0, -1, -0};
+int dy[5] = {+0, +1, -0, -1};
+int XX[] = { -1, -1, -1, 0, 0, 1, 1, 1 };
+int YY[] = { -1, 0, 1, -1, 1, -1, 0, 1 };
+
+bool Equal(double x, double y)
+{
+    return fabs(x-y)<eps; ///x==y
+}
+
+bool Greater(double x, double y)
+{
+    return x-eps>y; ///x>y
+}
+
+bool Lesser(double x, double y)
+{
+    return x+eps<y; ///x<y
+}
+
+struct point
+{
+    double x, y, ang;
+};
+
+#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); cerr << '\n'; }
+void err(istream_iterator<string> it) {}
+template<typename T, typename... Args> void err(istream_iterator<string> it, T a, Args... args) { cerr << *it << " = " << a << " "; err(++it, args...); }
+
+///Write what you need -->
+/// nt, ft, kmp, tri, sufarr, ub_lb, lis
+/// dsu
+
+
+///Template Ends Here////////////////////////////
+
+int done[50004];
+struct st
+{
+    int x, y, z, id;
+};
+
+struct stxy
+{
+    int x, y, id;
+};
+
+struct stx
+{
+    int x, id;
+};
+
+bool cmp(st a, st b)
+{
+    if(a.x != b.x)
+        return a.x < b.x;
+    if(a.y != b.y)
+        return a.y < b.y;
+
+    return a.z < b.z;
+}
+
+void fx(vector<stx> v){
+    int sz = sz(v);
+//    error(sz);
+    f(i, 0, sz-2){
+        cout<<v[i].id<<" "<<v[i+1].id<<endl;
+        done[v[i].id] = done[v[i+1].id] = 1;
+        i++;
+    }
+}
+
+void fxy(vector<stxy>v){
+    int st = v[0].x, sz = sz(v);
+    vector<stx>vx;
+
+    for(auto xy:v){
+        if(xy.x != st){
+            fx(vx);
+            st = xy.x;
+            vx.clear();
+        }
+        vx.pb({xy.y, xy.id});
+    }
+    fx(vx);
+
+    int l=-1, r = -1;
+    f(i, 0, sz-1){
+        if(!done[v[i].id] && l==-1){
+            l = v[i].id;
+            continue;
+        }
+        if(!done[v[i].id] && r==-1){
+            r = v[i].id;
+            cout<<l<<" "<<r<<endl;
+            done[l] = done[r] = 1;
+            l = r = -1;
+        }
+    }
+
+}
+signed main()
+{
+//    root = new trinode();
+//    freopen("input.txt", "r", stdin);
+//    freopen("output.txt", "w", stdout);
+
+//    FASTIO
+
+    int n;
+    cin>>n;
+
+    st a[n+1];
+    f(i, 1, n){
+        cin>>a[i].x >>a[i].y >>a[i].z ;
+        a[i].id = i;
+    }
+
+    sort(a+1, a+n+1, cmp);
+
+    int stxx = a[1].x;
+
+    vector<stxy>v;
+
+    f(i, 1, n){
+        if(stxx != a[i].x){
+            fxy(v);
+            stxx = a[i].x;
+            v.clear();
+        }
+        v.pb({a[i].y, a[i].z, a[i].id});
+    }
+    fxy(v);
+
+//    cout<<465165;
+
+    int l=-1, r = -1, sz = n;
+    f(i, 1, sz){
+        if(!done[a[i].id] && l==-1){
+            l = a[i].id;
+            continue;
+        }
+        if(!done[a[i].id] && r==-1){
+            r = a[i].id;
+            cout<<l<<" "<<r<<endl;
+            done[l] = done[r] = 1;
+            l = r = -1;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    tridel(root);
+}
+
+
+
+
