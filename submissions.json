@@ -1,4 +1,20 @@
 {
+  "AC18362983": {
+    "contest_id": "abc184",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc184\\F.cpp",
+    "platform": "AtCoder",
+    "problem_index": "F",
+    "problem_name": "Programming Contest",
+    "problem_url": "https://atcoder.jp/contests/abc184/tasks/abc184_f",
+    "submission_id": "AC18362983",
+    "submission_url": "https://atcoder.jp/contests/abc184/submissions/18362983",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Nov/23/2020 11:36"
+  },
   "AC18576601": {
     "contest_id": "arc110",
     "language": "C++ (GCC 9.2.1)",
