@@ -797,6 +797,26 @@
     ],
     "timestamp": "Dec/25/2020 19:23"
   },
+  "CF99359764": {
+    "contest_id": 1442,
+    "language": "GNU C++14",
+    "path": "codeforces\\1442\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Identify the Operations",
+    "problem_url": "https://codeforces.com/contest/1442/problem/B",
+    "submission_id": "CF99359764",
+    "submission_url": "https://codeforces.com/contest/1442/submission/99359764",
+    "tags": [
+      "combinatorics",
+      "data structures",
+      "dsu",
+      "greedy",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Nov/24/2020 09:08"
+  },
   "CF99405326": {
     "contest_id": 1454,
     "language": "GNU C++14",
