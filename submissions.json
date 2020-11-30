@@ -1,4 +1,21 @@
 {
+  "CF100010819": {
+    "contest_id": 1455,
+    "language": "GNU C++14",
+    "path": "codeforces\\1455\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Jumps",
+    "problem_url": "https://codeforces.com/contest/1455/problem/B",
+    "submission_id": "CF100010819",
+    "submission_url": "https://codeforces.com/contest/1455/submission/100010819",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Nov/30/2020 21:01"
+  },
   "CF100018695": {
     "contest_id": 1455,
     "language": "GNU C++14",
