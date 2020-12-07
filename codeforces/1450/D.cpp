@@ -127,7 +127,7 @@ signed main()
                 ans[k] = 1;
             }
             else{
-                if(freq[id]>0){
+                if(a[l]>id && a[r]>id && freq[id]>0){
                     ans[k] = 1;
                 }
                 break;
