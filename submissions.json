@@ -1,4 +1,22 @@
 {
+  "CF100649454": {
+    "contest_id": 1254,
+    "language": "GNU C++14",
+    "path": "codeforces\\1254\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Feeding Chicken",
+    "problem_url": "https://codeforces.com/contest/1254/problem/A",
+    "submission_id": "CF100649454",
+    "submission_url": "https://codeforces.com/contest/1254/submission/100649454",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Dec/08/2020 00:08"
+  },
   "CF100720341": {
     "contest_id": 1254,
     "language": "GNU C++14",
