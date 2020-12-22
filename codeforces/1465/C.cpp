@@ -88,14 +88,27 @@ int dfs(int s, int st)
     if(vis[s]) return 0;
     int ret = 0;
     vis[s] = 1;
-
+//    error(s, vis[s]);
     for(int x:g[s]){
         if(x == st)
             return 1;
         ret = ret | dfs(x, st);
     }
+
+//    cycle[s] = ret;
+//    error(s, ret);
     return ret;
 }
+
+//void dfs2(int s)
+//{
+//    vis[s] = 0;
+////    error(2, s, vis[s]);
+//    for(int x:g[s]){
+//        if(vis[x])
+//        dfs2(x);
+//    }
+//}
 
 signed main()
 {
@@ -129,6 +142,10 @@ signed main()
             if(!vis[i] && !g[i].empty()){
                 int ret = dfs(i, i);
                 ans += ret;
+//                error(i, ans);
+
+//                if(!cycle[i])
+//                dfs2(i);
             }
         }
 
@@ -139,6 +156,14 @@ signed main()
             vis[i] = 0;
             g[i].clear();
         }
+
+//1
+//9 5
+//7 5
+//5 1
+//1 7
+//6 4
+//9 6
 
 
 
