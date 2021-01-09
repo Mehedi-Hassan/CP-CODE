@@ -1199,6 +1199,22 @@
     ],
     "timestamp": "Dec/13/2020 19:04"
   },
+  "AC19298030": {
+    "contest_id": "arc111",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc111\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Reversible Cards",
+    "problem_url": "https://atcoder.jp/contests/arc111/tasks/arc111_b",
+    "submission_id": "AC19298030",
+    "submission_url": "https://atcoder.jp/contests/arc111/submissions/19298030",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/09/2021 23:48"
+  },
   "AC19315428": {
     "contest_id": "abc188",
     "language": "C++ (GCC 9.2.1)",
