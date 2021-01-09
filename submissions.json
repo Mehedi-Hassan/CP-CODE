@@ -1199,6 +1199,22 @@
     ],
     "timestamp": "Dec/13/2020 19:04"
   },
+  "AC19296836": {
+    "contest_id": "arc111",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc111\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Simple Math 2",
+    "problem_url": "https://atcoder.jp/contests/arc111/tasks/arc111_a",
+    "submission_id": "AC19296836",
+    "submission_url": "https://atcoder.jp/contests/arc111/submissions/19296836",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/09/2021 22:14"
+  },
   "AC19298030": {
     "contest_id": "arc111",
     "language": "C++ (GCC 9.2.1)",
