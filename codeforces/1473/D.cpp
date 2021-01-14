@@ -102,11 +102,10 @@ signed main()
         string s;
         cin>>s;
 
-        int l[n+1], r[n+2], x = 0, lmn[n+1], lmx[n+1], rmx[n+2], rmn[n+2];
+        int l[n+1], r[n+1], x = 0, lmn[n+1], lmx[n+1], rmx[n+1], rmn[n+1];
         s = "#" + s;
 
         int mx = 0, mn = 0;
-        l[0] = lmn[0] = lmx[0] = 0;
         f(i, 1, n){
             if(s[i] == '+') x++;
             else x--;
@@ -120,7 +119,6 @@ signed main()
         }
 
         x = 0, mx = 0, mn = 0;
-        r[n+1] = rmn[n+1] = rmx[n+1] = 0;
         fr(i, n, 1){
             if(s[i] == '+') x--;
             else x++;
@@ -141,16 +139,16 @@ signed main()
             cin>>st>>en;
 
             int a, b, c, d;
-            // if(st==1 && en==n){
-            //     cout<<1<<endl;
-            // }
-            // else if(st==1){
-            //     cout<<rmx[en+1] - rmn[en+1] + 1<<endl;
-            // }
-            // else if(en == n){
-            //     cout<<lmx[st-1] - lmn[st-1] + 1<<endl;
-            // }
-            // else{
+            if(st==1 && en==n){
+                cout<<1<<endl;
+            }
+            else if(st==1){
+                cout<<rmx[en+1] - rmn[en+1] + 1<<endl;
+            }
+            else if(en == n){
+                cout<<lmx[st-1] - lmn[st-1] + 1<<endl;
+            }
+            else{
                 a = lmn[st-1];
                 b = lmx[st-1];
 
@@ -164,7 +162,7 @@ signed main()
 
                 // cout<<m<<" ";
                 cout<<b-a+1<<endl;
-            // }
+            }
         }
 
 
