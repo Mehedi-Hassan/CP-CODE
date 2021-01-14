@@ -141,19 +141,30 @@ signed main()
             cin>>st>>en;
 
             int a, b, c, d;
-            
-            a = lmn[st-1];
-            b = lmx[st-1];
+            // if(st==1 && en==n){
+            //     cout<<1<<endl;
+            // }
+            // else if(st==1){
+            //     cout<<rmx[en+1] - rmn[en+1] + 1<<endl;
+            // }
+            // else if(en == n){
+            //     cout<<lmx[st-1] - lmn[st-1] + 1<<endl;
+            // }
+            // else{
+                a = lmn[st-1];
+                b = lmx[st-1];
 
-            c = rmn[en+1];
-            d = rmx[en+1];
+                c = rmn[en+1];
+                d = rmx[en+1];
 
-            // error(a, b, c, d);
+                // error(a, b, c, d);
 
-            b = max(b, l[st-1] + d-r[en+1]);
-            a = min(a, l[st-1] - r[en+1]+c);
+                b = max(b, l[st-1] + d-r[en+1]);
+                a = min(a, l[st-1] - r[en+1]+c);
 
-            cout<<b-a+1<<endl;
+                // cout<<m<<" ";
+                cout<<b-a+1<<endl;
+            // }
         }
 
 
