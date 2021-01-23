@@ -1311,6 +1311,22 @@
     ],
     "timestamp": "Jan/10/2021 20:26"
   },
+  "AC19656374": {
+    "contest_id": "abc189",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc189\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Slot",
+    "problem_url": "https://atcoder.jp/contests/abc189/tasks/abc189_a",
+    "submission_id": "AC19656374",
+    "submission_url": "https://atcoder.jp/contests/abc189/submissions/19656374",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/23/2021 21:52"
+  },
   "AC19656524": {
     "contest_id": "abc189",
     "language": "C++ (GCC 9.2.1)",
