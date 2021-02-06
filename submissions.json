@@ -1311,6 +1311,22 @@
     ],
     "timestamp": "Jan/10/2021 20:26"
   },
+  "AC19991131": {
+    "contest_id": "abc191",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc191\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Come Back Quickly",
+    "problem_url": "https://atcoder.jp/contests/abc191/tasks/abc191_e",
+    "submission_id": "AC19991131",
+    "submission_url": "https://atcoder.jp/contests/abc191/submissions/19991131",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Feb/06/2021 19:12"
+  },
   "AC20522035": {
     "contest_id": "abc193",
     "language": "C++ (GCC 9.2.1)",
