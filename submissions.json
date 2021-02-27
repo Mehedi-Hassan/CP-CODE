@@ -1311,6 +1311,22 @@
     ],
     "timestamp": "Jan/10/2021 20:26"
   },
+  "AC20552040": {
+    "contest_id": "abc193",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc193\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Poker",
+    "problem_url": "https://atcoder.jp/contests/abc193/tasks/abc193_d",
+    "submission_id": "AC20552040",
+    "submission_url": "https://atcoder.jp/contests/abc193/submissions/20552040",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/27/2021 19:39"
+  },
   "AC20755430": {
     "contest_id": "agc052",
     "language": "C++ (GCC 9.2.1)",
