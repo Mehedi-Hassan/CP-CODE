@@ -125,43 +125,57 @@ signed main()
     cin>>n;
 
     int lo = 1, hi = n;
-
+    
 
     while(lo < hi){
         if(ok(lo, hi)) rr;
-        int mid =(lo+hi)/2;
 
         int m2 = q(lo, hi);
+        int x = q(lo, m2);
 
-        if(m2 <= mid){
-            if(q(lo, mid) == m2){
-                hi = mid;
+        if(x == m2){
+            hi = m2;
+            if(ok(lo, hi)) rr;
+
+            //lo -> m2
+            int mid = (lo+hi)/2;
+            int x = q(mid+1, hi);
+            if(x == hi){
+                lo = mid+1;
+                // if(ok(lo, hi)) rr;
             }
             else{
-                lo = mid+1;
+                hi = mid;
+                // if(ok(lo, hi)) rr;
             }
         }
         else{
-            if(q(mid+1, hi) == m2){
-                lo = mid+1;
+            lo = m2;
+            if(ok(lo, hi)) rr;
+
+            //m2 -> hi
+            int mid = (lo+hi)/2;
+            int x = q(lo, mid);
+            if(x == lo){
+                hi = mid;
+                // if(ok(lo, hi)) rr;
             }
             else{
-                hi = mid;
+                lo = mid+1;
+                // if(ok(lo, hi)) rr;
             }
         }
-        // error(lo, hi);
-        if(ok(lo, hi)) rr;
     }
 
-    cout<<"! "<<hi<<endl;
+    cout<<"! "<<lo<<endl;
     cout.flush();
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
 
 
 //    tridel(root);
