@@ -153,7 +153,7 @@ signed main()
         if(ok(lo, hi)) rr;
     }
 
-    cout<<"! "<<lo<<endl;
+    cout<<"! "<<hi<<endl;
     cout.flush();
 
 
