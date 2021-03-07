@@ -1311,6 +1311,22 @@
     ],
     "timestamp": "Jan/10/2021 20:26"
   },
+  "AC20755430": {
+    "contest_id": "agc052",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\agc052\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Long Common Subsequence",
+    "problem_url": "https://atcoder.jp/contests/agc052/tasks/agc052_a",
+    "submission_id": "AC20755430",
+    "submission_url": "https://atcoder.jp/contests/agc052/submissions/20755430",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Mar/07/2021 18:09"
+  },
   "AC20874632": {
     "contest_id": "abc195",
     "language": "C++ (GCC 9.2.1)",
