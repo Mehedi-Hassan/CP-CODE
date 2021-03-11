@@ -2617,6 +2617,23 @@
     ],
     "timestamp": "Jan/08/2021 23:25"
   },
+  "CF109733804": {
+    "contest_id": 1109,
+    "language": "GNU C++14",
+    "path": "codeforces\\1109\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sasha and a Bit of Relax",
+    "problem_url": "https://codeforces.com/contest/1109/problem/A",
+    "submission_id": "CF109733804",
+    "submission_url": "https://codeforces.com/contest/1109/submission/109733804",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Mar/12/2021 01:20"
+  },
   "CF109754300": {
     "contest_id": 913,
     "language": "GNU C++14",
