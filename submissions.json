@@ -2617,6 +2617,26 @@
     ],
     "timestamp": "Jan/08/2021 23:25"
   },
+  "CF110758619": {
+    "contest_id": 1061,
+    "language": "GNU C++14",
+    "path": "codeforces\\1061\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Multiplicity",
+    "problem_url": "https://codeforces.com/contest/1061/problem/C",
+    "submission_id": "CF110758619",
+    "submission_url": "https://codeforces.com/contest/1061/submission/110758619",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Mar/22/2021 23:26"
+  },
   "CF110848643": {
     "contest_id": 478,
     "language": "GNU C++14",
