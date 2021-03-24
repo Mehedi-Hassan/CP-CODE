@@ -2617,6 +2617,23 @@
     ],
     "timestamp": "Jan/08/2021 23:25"
   },
+  "CF110925307": {
+    "contest_id": 1295,
+    "language": "GNU C++14",
+    "path": "codeforces\\1295\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Same GCDs",
+    "problem_url": "https://codeforces.com/contest/1295/problem/D",
+    "submission_id": "CF110925307",
+    "submission_url": "https://codeforces.com/contest/1295/submission/110925307",
+    "tags": [
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Mar/25/2021 01:09"
+  },
   "CF110946025": {
     "contest_id": 283,
     "language": "GNU C++14",
