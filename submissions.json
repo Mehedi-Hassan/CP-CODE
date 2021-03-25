@@ -2617,6 +2617,24 @@
     ],
     "timestamp": "Jan/08/2021 23:25"
   },
+  "CF110946025": {
+    "contest_id": 283,
+    "language": "GNU C++14",
+    "path": "codeforces\\283\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cow Program",
+    "problem_url": "https://codeforces.com/contest/283/problem/B",
+    "submission_id": "CF110946025",
+    "submission_url": "https://codeforces.com/contest/283/submission/110946025",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Mar/25/2021 11:46"
+  },
   "CF111078382": {
     "contest_id": 1506,
     "language": "GNU C++14",
