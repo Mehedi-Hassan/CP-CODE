@@ -2617,6 +2617,23 @@
     ],
     "timestamp": "Jan/08/2021 23:25"
   },
+  "CF111695389": {
+    "contest_id": 1505,
+    "language": "GNU C++14",
+    "path": "codeforces\\1505\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Cakewalk",
+    "problem_url": "https://codeforces.com/contest/1505/problem/E",
+    "submission_id": "CF111695389",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111695389",
+    "tags": [
+      "greedy",
+      "implementation",
+      "shortest paths"
+    ],
+    "timestamp": "Apr/01/2021 21:25"
+  },
   "CF111874703": {
     "contest_id": 1504,
     "language": "GNU C++14",
