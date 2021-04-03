@@ -132,36 +132,36 @@ signed main()
         if(x == 1){
             if(!v2.empty()){
                 cout<<2<<" "<<v2.back().first<<" "<<v2.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v2.pop_back();
             }
             else{
                 cout<<3<<" "<<v1.back().first<<" "<<v1.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v1.pop_back();
             }
         }
         else if(x == 2){
             if(!v1.empty()){
                 cout<<1<<" "<<v1.back().first<<" "<<v1.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v1.pop_back();
             }
             else{
                 cout<<3<<" "<<v2.back().first<<" "<<v2.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v2.pop_back();
             }
         }
         else{
             if(!v1.empty()){
                 cout<<1<<" "<<v1.back().first<<" "<<v1.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v1.pop_back();
             }
             else if(!v2.empty()){
                 cout<<2<<" "<<v2.back().first<<" "<<v2.back().second<<endl;
-//                cout.flush();
+                cout.flush();
                 v2.pop_back();
             }
         }
