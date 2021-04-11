@@ -1311,6 +1311,22 @@
     ],
     "timestamp": "Jan/10/2021 20:26"
   },
+  "AC21673741": {
+    "contest_id": "abc198",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc198\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Compass Walking",
+    "problem_url": "https://atcoder.jp/contests/abc198/tasks/abc198_c",
+    "submission_id": "AC21673741",
+    "submission_url": "https://atcoder.jp/contests/abc198/submissions/21673741",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/11/2021 18:53"
+  },
   "AC21680417": {
     "contest_id": "abc198",
     "language": "C++ (GCC 9.2.1)",
