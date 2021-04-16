@@ -13,9 +13,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-741 | [A - Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | [GNU C++14](./codeforces/633/A.cpp) | `brute force` `math` `number theory` `*1100` | Apr/18/2021 01:00 | 
-740 | [D - Binary Literature](https://codeforces.com/contest/1509/problem/D) | [GNU C++14](./codeforces/1509/D.cpp) | `constructive algorithms` `greedy` `strings` `two pointers` | Apr/17/2021 23:34 | 
-739 | [C - The Sports Festival](https://codeforces.com/contest/1509/problem/C) | [GNU C++14](./codeforces/1509/C.cpp) | `dp` `greedy` | Apr/17/2021 13:36 | 
+742 | [A - Ebony and Ivory](https://codeforces.com/contest/633/problem/A) | [GNU C++14](./codeforces/633/A.cpp) | `brute force` `math` `number theory` `*1100` | Apr/18/2021 01:00 | 
+741 | [D - Binary Literature](https://codeforces.com/contest/1509/problem/D) | [GNU C++14](./codeforces/1509/D.cpp) | `constructive algorithms` `greedy` `strings` `two pointers` | Apr/17/2021 23:34 | 
+740 | [C - The Sports Festival](https://codeforces.com/contest/1509/problem/C) | [GNU C++14](./codeforces/1509/C.cpp) | `dp` `greedy` | Apr/17/2021 13:36 | 
+739 | [B - TMT Document](https://codeforces.com/contest/1509/problem/B) | [GNU C++14](./codeforces/1509/B.cpp) | `greedy` | Apr/16/2021 23:28 | 
 738 | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e) | [C++ (GCC 9.2.1)](./atcoder/abc188/E.cpp) | `AtCoder` `*500` | Jan/10/2021 20:26 | 
 737 | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d) | [C++ (GCC 9.2.1)](./atcoder/abc188/D.cpp) | `AtCoder` `*400` | Jan/10/2021 18:52 | 
 736 | [C - ABC Tournament](https://atcoder.jp/contests/abc188/tasks/abc188_c) | [C++ (GCC 9.2.1)](./atcoder/abc188/C.cpp) | `AtCoder` `*300` | Jan/10/2021 18:19 | 
